@@ -1,14 +1,9 @@
 # Private Parts
 #### A responsive visualization framework for privacy policies
 
-### Intro
+Forked from a [Lookout](https://lookout.com) [initiative](https://github.com/lookout/private-parts)
 
-Privacy policies are broken. Most are so obfuscated in legalese that only a trained attorney can make sense of them, and even the ones that are written in plain English are as long as a good novel. 
-In a world where privacy is more important than ever, Private Parts is an easy to use tool that helps you create a beautiful, responsive, and clear privacy policy for your business that your customers can actually understand. 
-The best part? We've designed Private Parts to make the process as painless as possible. If you already have your content ready, you should be up and running in less than 5 minutes.
-
-Check out an example of the finished product at
-<a href="https://www.lookout.com/legal/privacy" target="_blank">https://www.lookout.com/legal/privacy</a>
+An example: <a href="https://www.lookout.com/legal/privacy" target="_blank">https://www.lookout.com/legal/privacy</a>
 
 ### What you'll need
 
@@ -34,7 +29,7 @@ The instructions below have been designed generically for 'developers' and 'lawy
 
 #### For developers
 
-Private Parts is designed to be plug-and-play, and requires minimum configuration. You should basically focus on two files:
+This is designed to be plug-and-play, and requires minimum configuration. You should basically focus on two files:
 
 - ``assets/config.json``: Options and text for the policy itself. This is where you'll need to include content from your lawyer (see above). The project ships with all supported options, all NTIA-supported categories.
   - **pageOptions**: options for the entire policy. They're pretty self-explanatory
@@ -57,7 +52,3 @@ When you're done entering your content and customizing the look and feel of your
 
 - ``build/html/index.html``: A complete, responsive web page with all of the required CSS and JavaScript code minified and embedded into the HTML. You can just drop this file on any web server and you're done. 
 - ``build/html/main.html``: Just the body of the web page, so you can integrate it with your website template (usually by adding a header and a footer)
-
-## Credits
-
-Private Parts is a [Lookout](https://lookout.com) initiative.
